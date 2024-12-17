@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnership and Network</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+    <header >
+        <nav class="nav-bar">
+            <a href="/index.html" target="_blank">Home</a>
+            <a href="/programs.html" target="_blank">Program</a>
+            <a href="/service.html" target="_blank">Service</a>
+            <a href="/aboutus.html" target="_blank">About</a>
+            <a href="/community.html" target="_blank">Community</a>
+        </nav>
+        <div class="join">Join now</div>
+    </header>
+    <br>
+<header>
+    <h1>Partnership Opportunities</h1>
+    <p>Let's collaborate and create something extraordinary together</p>
+</header>
+
+<section class="satyam-intro">
+    <div>
+        <h2>Welcome to Our Partnership Program</h2>
+        <p>We believe that collaboration is key to mutual success. Whether you're looking to form a strategic alliance, co-market with us, or explore investment opportunities, we are excited to work together and achieve great things.</p>
+    </div>
+</section>
+
+<section class="satyam-partnership-types">
+    <div class="satyam-partnership-type">
+        <h3>Business Partnerships</h3>
+        <p>Join forces with us in co-marketing, strategic ventures, and joint product developments to expand our reach and impact.</p>
+    </div>
+    <div class="satyam-partnership-type">
+        <h3>Investment Opportunities</h3>
+        <p>We offer opportunities for investors to support growth and innovation, ensuring mutual success through shared risk and reward.</p>
+    </div>
+    <div class="satyam-partnership-type">
+        <h3>Supplier Partnerships</h3>
+        <p>We collaborate with suppliers to source the best materials, services, and technologies, creating a reliable supply chain for success.</p>
+    </div>
+</section>
+
+<section class="satyam-why-partner">
+    <h2>Why Partner With Us?</h2>
+    <p>By partnering with us, you'll gain access to:</p>
+    <ul>
+        <li>A dedicated support team</li>
+        <li>Innovative solutions and market insights</li>
+        <li>Increased market exposure and growth opportunities</li>
+        <li>Successful past partnerships with measurable results</li>
+    </ul>
+</section>
+
+<section class="satyam-contact-form">
+    <h2>Get Started</h2>
+    <p>If you're interested in exploring partnership opportunities with us, please fill out the form below, and we'll be in touch.</p>
+    <form action="submit_form.php" method="POST">
+        <div class="satyam-form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="satyam-form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="satyam-form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" required>
+        </div>
+        <div class="satyam-form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="satyam-form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+<div class="satyam-container">
+    <h2 class="satyam-text-center font-weight-bold">Our Partners</h2>
+    <section class="satyam-customer-logos slider">
+        <div class="satyam-slide"><img src="images/adidas.png" alt="logo" height="70"></div>
+        <div class="satyam-slide"><img src="images/Muscleblaze.png" alt="logo"></div>
+        <div class="satyam-slide"><img src="images/cult-fit.png" alt="logo"></div>
+        <div class="satyam-slide"><img src="images/myfitness.png" alt="logo"></div>
+        <div class="satyam-slide"><img src="images/nike.png" alt="logo" height="80"></div>
+        <div class="satyam-slide"><img src="images/NUTRABAY-Brand-Icon.png" alt="logo"  height="60"></div>
+        <div class="satyam-slide"><img src="images/vega.jpg" alt="logo"></div>
+    </section>
+</div>
+<script>
+
+$(document).ready(function(){
+    $('.satyam-customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover:false,
+        responsive: [{
+            breakpoint: 768,
+            setting: {
+                slidesToShow:4
+            }
+        }, {
+            breakpoint: 520,
+            setting: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+
+</script>
+<section class="satyam-testimonials">
+    <h2>What Our Partners Say</h2>
+    <p>"Working with FitFreak has been a game-changer. Their expertise and commitment to excellence helped us reach new heights." — Muscleblaze</p>
+    <p>"A truly collaborative experience! We’ve been able to expand our market reach and grow together." — Nike</p>
+</section>
+<p class="satyam-copy satyam-text-center satyam-font-weight-bold">All Rights Reserved &copy;FITFREAK </p>
+<footer>
+    <p>Contact Us: <a href="mailto:info@company.com">info@fitnessfreak.com</a> | <a href="tel:+1234567890">+1 234 567 890</a></p>
+    <p>&copy; 2024 FitFreak. All rights reserved.</p>
+</footer>
+<span class="bg__blur" style="top: 200px; left: 0"></span>
+    <span class="bg__blur" style="top: 1000px; left: 0"></span>
+    <span class="bg__blur" style="top: 500px; left: 50%"></span>
+    <span class="bg__blur" style="top: 1800px; left: 0"></span>
+    <span class="bg__blur" style="top: 200px; right: 0"></span>
+    <span class="bg__blur" style="top: 1400px; right: 0"></span>
+</body>
+</html>
